@@ -1,0 +1,351 @@
+﻿/** GENERAL **/
+/** GENERAL **/
+/** GENERAL **/
+.page-sidebar {
+	background-color: #ffffff;
+	border-radius: 16px;
+}
+
+/** CHIP **/
+/** CHIP **/
+/** CHIP **/
+.k-chip {
+	width: 96px !important;
+	height: 28px !important;
+	font-size: 12px !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	text-align: center !important;
+	border-width: 0 !important;
+}
+
+.k-chip-content {
+	flex: initial !important;
+	font-weight: 500 !important;
+}
+
+.k-chip-solid-base {
+	color: #1f2d40 !important;
+	background-color: #1f2d400d !important;
+}
+
+.k-chip-solid-success {
+	color: #34c759 !important;
+	background-color: #34c7590d !important;
+}
+
+.k-chip-solid-success .k-chip-content {
+	color: #34c759 !important;
+}
+
+.k-chip-solid-error {
+	color: #ff453a !important;
+	background-color: #ff453a0d !important;
+}
+
+.k-chip-solid-error .k-chip-content {
+	color: #ff453a !important;
+}
+
+.k-chip-solid-warning {
+	color: #ffd54f !important;
+	background-color: #ffd54f0d !important;
+}
+
+.k-chip-solid-warning .k-chip-content {
+	color: #ffd54f !important;
+}
+
+.k-chip-solid-info {
+	color: #007bff !important;
+	background-color: #0056b30d !important;
+}
+
+.k-chip-solid-info .k-chip-content {
+	color: #007bff !important;
+}
+
+/** SWITCH **/
+/** SWITCH **/
+/** SWITCH **/
+.k-switch-md {
+	width: 32px !important;
+	height: 16px !important;
+	border-radius: 32px !important;
+}
+
+.k-switch-md .k-switch-track {
+	width: 32px;
+	height: 16px;
+}
+
+.k-switch.k-switch-on .k-switch-thumb-wrap .k-switch-thumb {
+	width: 10px !important;
+	height: 10px !important;
+}
+
+.k-switch.k-switch-off .k-switch-thumb-wrap .k-switch-thumb {
+	width: 10px !important;
+	height: 10px !important;
+}
+
+.k-switch-md[dir="rtl"].k-switch-off .k-switch-thumb-wrap,
+[dir="rtl"] .k-switch-md.k-switch-off .k-switch-thumb-wrap,
+.k-rtl .k-switch-md.k-switch-off .k-switch-thumb-wrap {
+	left: calc(100% - 20px - 3px) !important;
+}
+
+.k-switch-md[dir="rtl"].k-switch-on .k-switch-thumb-wrap,
+[dir="rtl"] .k-switch-md.k-switch-on .k-switch-thumb-wrap,
+.k-rtl .k-switch-md.k-switch-on .k-switch-thumb-wrap {
+	left: calc(20px + 3px) !important;
+}
+
+/** TAB STRIP **/
+/** TAB STRIP **/
+/** TAB STRIP **/
+.k-tabstrip-items .k-item {
+	border: 0 !important;
+	border-bottom: 3px solid transparent !important;
+}
+
+.k-tabstrip-items-wrapper .k-item:focus,
+.k-tabstrip-items-wrapper .k-item.k-focus {
+	box-shadow: none !important;
+}
+
+.k-tabstrip-items-wrapper .k-item:active,
+.k-tabstrip-items-wrapper .k-item.k-active,
+.k-tabstrip-items-wrapper .k-item.k-selected {
+	background-color: transparent !important;
+}
+
+.k-tabstrip-top > .k-tabstrip-items-wrapper .k-item:active,
+.k-tabstrip-top > .k-tabstrip-items-wrapper .k-item.k-active {
+	border-bottom-width: 3px !important;
+	border-bottom-color: #1f2d40 !important;
+}
+
+.k-tabstrip-items .k-link {
+	color: #909398 !important;
+}
+
+.k-tabstrip-items .k-active .k-link {
+	color: #1f2d40 !important;
+}
+
+.k-tabstrip-content,
+.k-tabstrip > .k-content {
+	border-radius: 16px !important;
+	border-top-width: 1px !important;
+	margin-top: 24px !important;
+}
+
+/** BUTTON **/
+/** BUTTON **/
+/** BUTTON **/
+.k-button {
+	padding: 8px 16px 8px 16px !important;
+	border-radius: 8px !important;
+}
+
+.k-wizard .k-wizard-buttons-right .k-button:last-of-type {
+	margin-right: 10px !important;
+}
+
+.k-menu-button {
+	background-color: #f9f9f9 !important;
+	min-width: 200px !important;
+	width: auto !important;
+	justify-content: flex-start;
+}
+
+.k-menu-button .k-menu-button-arrow {
+	margin-right: auto !important;
+}
+
+/** STEPPER **/
+/** STEPPER **/
+/** STEPPER **/
+.k-stepper .k-step-indicator {
+	width: 36px !important;
+	height: 36px !important;
+	border-width: 3px !important;
+	border-color: #1f2d40 !important;
+	color: #1f2d40 !important;
+	position: relative !important;
+}
+
+.k-stepper .k-step-list-horizontal .k-step-indicator::before {
+	content: "---" !important;
+	position: absolute !important;
+	bottom: -25px !important;
+	left: 25% !important;
+	transform: rotate(90deg);
+	color: #909398 !important;
+}
+
+.k-stepper .k-step-current .k-step-indicator {
+	background-color: #ffd54f !important;
+}
+
+.k-stepper .k-step-current .k-step-indicator::before {
+	color: #1f2d40 !important;
+}
+
+.k-stepper .k-step-label .k-step-text {
+	font-size: 14px !important;
+	color: #909398 !important;
+}
+
+.k-stepper .k-step-current .k-step-label .k-step-text {
+	color: #1f2d40 !important;
+}
+
+.k-stepper .k-step-indicator .k-step-indicator-text {
+	font-weight: 600 !important;
+}
+
+/*.k-stepper .k-step-list .k-step.k-step-done .k-step-link .k-step-indicator {
+	background-color: #ffffff !important;
+}
+*/
+.k-step-list-horizontal .k-step-indicator + .k-step-label {
+	margin-top: 15px !important;
+}
+
+.k-step-list-horizontal ~ .k-progressbar {
+	height: 7px !important;
+	top: calc((31px + 2 * 2px) / 2 + 2px / 2) !important;
+	background-color: #1f2d40 !important;
+}
+
+.k-stepper
+	.k-progressbar.k-progressbar-horizontal
+	.k-progressbar-value.k-selected {
+	background-color: #1f2d40 !important;
+}
+
+.k-step-list-vertical .k-step {
+	min-height: calc(41px + 2 * 1px + 2 * 2px + 20px) !important;
+}
+
+.k-stepper .k-step-list-vertical .k-step-indicator::before {
+	content: "---" !important;
+	position: absolute !important;
+	bottom: 5% !important;
+	left: -20px !important;
+	transform: rotate(0);
+	color: #909398 !important;
+}
+
+.k-step-list-vertical ~ .k-progressbar {
+	width: 7px !important;
+	background-color: #1f2d40 !important;
+	left: calc((31px + 2 * 1px + 2 * 2px) / 2) !important;
+}
+
+.k-rtl .k-stepper .k-step-list-vertical ~ .k-progressbar,
+.k-stepper[dir="rtl"] .k-step-list-vertical ~ .k-progressbar {
+	left: auto !important;
+	right: calc((31px + 2 * 1px + 2 * 2px) / 2) !important;
+}
+
+.k-stepper
+	.k-progressbar.k-progressbar-vertical
+	.k-progressbar-value.k-selected {
+	background-color: #1f2d40 !important;
+}
+
+.k-stepper .k-step-list-vertical .k-step-label .k-step-text {
+	width: max-content !important;
+	max-width: max-content !important;
+}
+
+.k-step-list-vertical .k-step-indicator + .k-step-label {
+	margin-right: 20px !important;
+}
+
+/** TIME PICKER **/
+/** TIME PICKER **/
+/** TIME PICKER **/
+.k-timepicker .k-input-button {
+	background-color: transparent !important;
+}
+
+.k-timepicker .k-button-icon.k-svg-icon,
+.k-timepicker .k-button-icon.k-svg-icon > svg {
+	width: 22px !important;
+	height: 22px !important;
+}
+
+.k-time-list-container {
+	flex-direction: row-reverse !important;
+}
+
+/** NUMERIC FIELD **/
+/** NUMERIC FIELD **/
+/** NUMERIC FIELD **/
+.k-numerictextbox {
+	width: 167px !important;
+	height: 40px !important;
+	position: relative !important;
+}
+
+.k-numerictextbox input.k-input-inner {
+	width: 100% !important;
+	margin-right: 40px !important;
+	margin-left: 40px !important;
+	text-align: center !important;
+}
+
+.k-numerictextbox .k-input-spinner {
+	width: auto !important;
+	height: 40px !important;
+	position: absolute !important;
+	right: 8px !important;
+	left: 8px !important;
+	align-items: center !important;
+}
+
+.k-numerictextbox .k-input-spinner button {
+	width: 32px !important;
+	height: 32px !important;
+	max-width: 32px !important;
+	background: #1f2d40 !important;
+	padding: 8px !important;
+}
+
+.k-numerictextbox .k-input-spinner button svg {
+	width: 16px !important;
+	height: 16px !important;
+	color: #ffffff !important;
+}
+
+/** BUTTON GROUP **/
+/** BUTTON GROUP **/
+/** BUTTON GROUP **/
+.button-group-custom.k-button-group {
+	width: auto !important;
+	padding: 8px !important;
+	background-color: #f9f9f9 !important;
+	border-radius: 8px !important;
+	gap: 8px !important;
+}
+
+.button-group-custom.k-button-group .k-button {
+	border-radius: 8px !important;
+	padding: 4px !important;
+	background-color: #f9f9f9 !important;
+}
+
+.button-group-custom.k-button-group .k-button.k-selected {
+	background: #0f172a !important;
+	color: #ffd54f !important;
+}
+
+
+.bg-navbar{
+	background-color:white
+}
